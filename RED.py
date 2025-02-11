@@ -582,7 +582,7 @@ def rcrack1(uid,pwx,tl):
 
                 print(f"\x1b[38;5;196m[X-CP🩸] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
 
-               open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
+               #open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(uid)
 
